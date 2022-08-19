@@ -24,10 +24,20 @@ namespace LinqEg
             Product p = Product.GetProductById(id);
             Console.WriteLine(p.ToString());    
         }
+        //public static void AddNewPrd()
+        //{
+        //    Console.WriteLine("Enter Pid, Pname and Pqty");
+        //    Product p = new Product();
+        //    p.Pid = Convert.ToInt32(Console.ReadLine());
+        //    p.Pname = Console.ReadLine();
+        //    p.Pqty = Convert.ToInt32(Console.ReadLine());
+        //    Product.AddProduct(p);
+        //}
         static void Main()
         {
             DisplayPrd();
             DisplayPartPrd();
         }
+        
     }
 }

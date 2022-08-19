@@ -35,6 +35,10 @@ namespace LinqEg
             return p;
             
         }
+        //public static Product AddProduct(Product)
+        //{
+        //    pd.Add(p);
+        //}
 
         public override string ToString()
         {
